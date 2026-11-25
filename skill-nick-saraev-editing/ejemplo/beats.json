@@ -1,0 +1,732 @@
+{
+ "title": "Prueba · 3 fotos por prenda (estilo Nick Saraev)",
+ "beats": [
+  {
+   "id": "b01",
+   "start": 0.0,
+   "end": 3.98,
+   "script": "Toda prenda que vende necesita tres fotos y casi todos suben una sola.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V06-A10",
+     "scenes": [
+      {
+       "id": "n1",
+       "type": "n_frame",
+       "start": 0.0,
+       "end": 3.98,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "t": 0.3,
+           "label": "de frente"
+          },
+          {
+           "t": 1.62,
+           "label": "puesta"
+          },
+          {
+           "t": 1.84,
+           "label": "de cerca"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "title1": "Las 3 fotos que",
+        "title2": "Venden Tu Ropa",
+        "canvas": "dark",
+        "grid": true
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V01-A08",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 0.0,
+       "end": 3.98,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V01-A14",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "start": 3.98,
+   "end": 7.38,
+   "script": "La prenda colgada en un gancho con la luz del local. Te digo cuáles son.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V09-A04",
+     "scenes": [
+      {
+       "id": "n2",
+       "type": "n_frame",
+       "start": 3.98,
+       "end": 6.42,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A02 · prenda en gancho\ncon luz del local",
+         "labels": [
+          {
+           "text": "la única foto",
+           "x": 0.5,
+           "y": 0.86,
+           "t": 4.28,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "light"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V03-A13",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 3.98,
+       "end": 7.38,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V02-A03",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "start": 7.38,
+   "end": 10.94,
+   "script": "La tercera es la que casi nadie toma y es la que más preguntas te ahorra.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V12-A11",
+     "scenes": [
+      {
+       "id": "n3",
+       "type": "n_frame",
+       "start": 7.38,
+       "end": 10.94,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "badge": true,
+         "messages": [
+          {
+           "text": "¿Tienes más fotos?",
+           "t": 9.38
+          },
+          {
+           "text": "¿Cómo es la tela?",
+           "t": 9.7
+          },
+          {
+           "text": "¿De qué largo es?",
+           "t": 10.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V04-A07",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 7.38,
+       "end": 10.94,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V02-A12",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "start": 10.94,
+   "end": 17.4,
+   "script": "La primera, la prenda completa de frente con luz de día… Esa responde cómo es.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V13-A10",
+     "scenes": [
+      {
+       "id": "n4",
+       "type": "n_frame",
+       "start": 10.94,
+       "end": 16.12,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A03 · prenda completa de frente\ncon luz de día",
+         "labels": [
+          {
+           "text": "luz de día",
+           "x": 0.5,
+           "y": 0.14,
+           "t": 13.06
+          },
+          {
+           "text": "color real",
+           "x": 0.28,
+           "y": 0.5,
+           "t": 14.56
+          },
+          {
+           "text": "largo",
+           "x": 0.76,
+           "y": 0.82,
+           "t": 15.58
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "light",
+        "face_box": false
+       }
+      },
+      {
+       "id": "n5",
+       "type": "n_frame",
+       "start": 16.12,
+       "end": 17.4,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo es?",
+           "t": 16.3
+          },
+          {
+           "text": "📸 Foto 1",
+           "me": true,
+           "t": 16.96
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V06-A08",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 10.94,
+       "end": 17.4,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V03-A15",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "start": 17.4,
+   "end": 24.28,
+   "script": "La segunda, la prenda puesta en una persona… esa responde cómo me queda.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V13-A13",
+     "scenes": [
+      {
+       "id": "n6",
+       "type": "n_frame",
+       "start": 17.4,
+       "end": 21.78,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A04 · la prenda puesta\nen una persona"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "light"
+       }
+      },
+      {
+       "id": "n7",
+       "type": "n_frame",
+       "start": 23.02,
+       "end": 24.28,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo me queda?",
+           "t": 23.08
+          },
+          {
+           "text": "📸 Foto 2",
+           "me": true,
+           "t": 23.88
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V06-A12",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 17.4,
+       "end": 24.28,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V04-A14",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "start": 24.28,
+   "end": 30.22,
+   "script": "Y la tercera de cerquita, la costura, el botón, la tela…",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V14-A12",
+     "scenes": [
+      {
+       "id": "n8",
+       "type": "n_frame",
+       "start": 24.28,
+       "end": 30.22,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A06 costura · A07 botón · A08 tela",
+         "cuts": [
+          26.24,
+          26.72
+         ],
+         "labels": [
+          {
+           "text": "costura",
+           "x": 0.5,
+           "y": 0.85,
+           "t": 25.64,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark",
+        "face_box": false
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V08-A03",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 24.28,
+       "end": 30.22,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V05-A15",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "start": 30.22,
+   "end": 33.12,
+   "script": "Esto si es buena calidad o se me daña en la primera lavada.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V17-A18",
+     "scenes": [
+      {
+       "id": "n9",
+       "type": "n_frame",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente · escribiendo…",
+         "messages": [
+          {
+           "text": "¿Sí es buena calidad?",
+           "t": 30.46
+          },
+          {
+           "text": "¿Se daña al lavar?",
+           "t": 31.24
+          },
+          {
+           "text": "🔍 Foto 3",
+           "me": true,
+           "t": 32.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V11-A13",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V06-A03",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "start": 33.12,
+   "end": 37.72,
+   "script": "Con una foto el cliente te escribe diez veces. Con tres te escribe una sola vez para pedir.",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Ventana enmarcada",
+     "cats": "n_frame",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V17-A23",
+     "scenes": [
+      {
+       "id": "n10",
+       "type": "n_frame",
+       "start": 33.12,
+       "end": 37.72,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "10",
+         "label": "mensajes con 1 foto",
+         "t": 34.3,
+         "vs": {
+          "value": "1",
+          "label": "con 3 fotos: para pedir",
+          "t": 36.24
+         }
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "canvas": "dark",
+        "face_box": false
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V14-A08",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 33.12,
+       "end": 37.72,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V06-A20",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "start": 37.72,
+   "end": 44.3,
+   "script": "Comenta la palabra en pantalla y te armo gratis un anuncio…",
+   "seen": "Cada cosa nombrada aparece en la ventana enmarcada; la cara vuelve solo para remates.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Cierre comment",
+     "cats": "n_cta",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V04-A15",
+     "scenes": [
+      {
+       "id": "cta",
+       "type": "n_cta",
+       "start": 37.72,
+       "end": 44.3,
+       "props": {
+        "word": "FOTOS",
+        "word_s": 0.5
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo ventana (sin cara)",
+     "cats": "window_only",
+     "desc": "La herramienta ocupa y 13–66 % sobre lienzo oscuro; subtítulo debajo.",
+     "ref": "V14-A13",
+     "scenes": [
+      {
+       "type": "n_frame",
+       "start": 37.72,
+       "end": 44.3,
+       "props": {
+        "face_box": false,
+        "canvas": "dark",
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "captura"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara a pantalla completa",
+     "cats": "face_full",
+     "desc": "Él completo con el subtítulo; solo para remates.",
+     "ref": "V07-A18",
+     "scenes": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "style": "nick-saraev",
+ "scenes": [
+  {
+   "id": "n1",
+   "type": "n_frame",
+   "start": 0.0,
+   "end": 3.98,
+   "props": {
+    "top": {
+     "kind": "slots",
+     "slots": [
+      {
+       "t": 0.3,
+       "label": "de frente"
+      },
+      {
+       "t": 1.62,
+       "label": "puesta"
+      },
+      {
+       "t": 1.84,
+       "label": "de cerca"
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "title1": "Las 3 fotos que",
+    "title2": "Venden Tu Ropa",
+    "canvas": "dark",
+    "grid": true
+   }
+  },
+  {
+   "id": "n2",
+   "type": "n_frame",
+   "start": 3.98,
+   "end": 6.42,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A02 · prenda en gancho\ncon luz del local",
+     "labels": [
+      {
+       "text": "la única foto",
+       "x": 0.5,
+       "y": 0.86,
+       "t": 4.28,
+       "box": true
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "light"
+   }
+  },
+  {
+   "id": "n3",
+   "type": "n_frame",
+   "start": 7.38,
+   "end": 10.94,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "badge": true,
+     "messages": [
+      {
+       "text": "¿Tienes más fotos?",
+       "t": 9.38
+      },
+      {
+       "text": "¿Cómo es la tela?",
+       "t": 9.7
+      },
+      {
+       "text": "¿De qué largo es?",
+       "t": 10.34
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark"
+   }
+  },
+  {
+   "id": "n4",
+   "type": "n_frame",
+   "start": 10.94,
+   "end": 16.12,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A03 · prenda completa de frente\ncon luz de día",
+     "labels": [
+      {
+       "text": "luz de día",
+       "x": 0.5,
+       "y": 0.14,
+       "t": 13.06
+      },
+      {
+       "text": "color real",
+       "x": 0.28,
+       "y": 0.5,
+       "t": 14.56
+      },
+      {
+       "text": "largo",
+       "x": 0.76,
+       "y": 0.82,
+       "t": 15.58
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "light",
+    "face_box": false
+   }
+  },
+  {
+   "id": "n5",
+   "type": "n_frame",
+   "start": 16.12,
+   "end": 17.4,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "messages": [
+      {
+       "text": "¿Cómo es?",
+       "t": 16.3
+      },
+      {
+       "text": "📸 Foto 1",
+       "me": true,
+       "t": 16.96
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark"
+   }
+  },
+  {
+   "id": "n6",
+   "type": "n_frame",
+   "start": 17.4,
+   "end": 21.78,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A04 · la prenda puesta\nen una persona"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "light"
+   }
+  },
+  {
+   "id": "n7",
+   "type": "n_frame",
+   "start": 23.02,
+   "end": 24.28,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "messages": [
+      {
+       "text": "¿Cómo me queda?",
+       "t": 23.08
+      },
+      {
+       "text": "📸 Foto 2",
+       "me": true,
+       "t": 23.88
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark"
+   }
+  },
+  {
+   "id": "n8",
+   "type": "n_frame",
+   "start": 24.28,
+   "end": 30.22,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A06 costura · A07 botón · A08 tela",
+     "cuts": [
+      26.24,
+      26.72
+     ],
+     "labels": [
+      {
+       "text": "costura",
+       "x": 0.5,
+       "y": 0.85,
+       "t": 25.64,
+       "box": true
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark",
+    "face_box": false
+   }
+  },
+  {
+   "id": "n9",
+   "type": "n_frame",
+   "start": 30.22,
+   "end": 33.12,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente · escribiendo…",
+     "messages": [
+      {
+       "text": "¿Sí es buena calidad?",
+       "t": 30.46
+      },
+      {
+       "text": "¿Se daña al lavar?",
+       "t": 31.24
+      },
+      {
+       "text": "🔍 Foto 3",
+       "me": true,
+       "t": 32.34
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark"
+   }
+  },
+  {
+   "id": "n10",
+   "type": "n_frame",
+   "start": 33.12,
+   "end": 37.72,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "10",
+     "label": "mensajes con 1 foto",
+     "t": 34.3,
+     "vs": {
+      "value": "1",
+      "label": "con 3 fotos: para pedir",
+      "t": 36.24
+     }
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "canvas": "dark",
+    "face_box": false
+   }
+  },
+  {
+   "id": "cta",
+   "type": "n_cta",
+   "start": 37.72,
+   "end": 44.3,
+   "props": {
+    "word": "FOTOS",
+    "word_s": 0.5
+   }
+  }
+ ],
+ "cuts": [],
+ "captions": {
+  "enabled": true,
+  "special_words": [
+   "fotos",
+   "gratis",
+   "anuncio"
+  ]
+ },
+ "assets": []
+}
